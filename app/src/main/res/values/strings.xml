@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Bills</string>
+    <string name="title_export">Export</string>
+    <string name="menu_item_title_export">Exportar</string>
+</resources>

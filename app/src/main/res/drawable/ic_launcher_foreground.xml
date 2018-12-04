@@ -1,0 +1,11 @@
+<!-- drawable/swap_horizontal.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:width="108dp"
+        android:height="108dp"
+        android:viewportWidth="35.820896"
+        android:viewportHeight="35.820896">
+    <group android:translateX="5.9104476"
+            android:translateY="5.9104476">
+        <path android:fillColor="#fff" android:pathData="M21,9L17,5V8H10V10H17V13M7,11L3,15L7,19V16H14V14H7V11Z" />
+    </group>
+</vector>
