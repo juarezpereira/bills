@@ -86,6 +86,12 @@ class MainActivity : AppCompatActivity(), SplitInstallStateUpdatedListener {
                 .build()
 
         manager.startInstall(request)
+                .addOnCompleteListener {
+                    if (it.isSuccessful) {
+
+                        return@addOnCompleteListener
+                    }
+                }
     }
 
     private fun updateProgressMessage(message: String) {
